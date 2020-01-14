@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+
+*.csproj.user
+*.vcxproj.user
+
+launchSettings.json
+
+*.nupkg
