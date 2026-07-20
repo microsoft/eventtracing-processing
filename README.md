@@ -1,10 +1,20 @@
 # Issues-Only Repository
 
-This repository is currently an issues-only repository for the following NuGet package:
-Microsoft.Windows.EventTracing.Processing.All
-(and related NuGet packages, such as Microsoft.Windows.EventTracing.Processing).
+This repository is currently an issues-only repository for the `Microsoft.Windows.EventTracing.*`
+NuGet packages.
 
-For more information on these packages, see the [announcement blog post](https://aka.ms/traceprocessing).
+These packages currently include the following groups on nuget.org:
+
+- **1.x (stable):** the `Microsoft.Windows.EventTracing.Processing.*` packages and the related
+  per-domain packages (for example, `Microsoft.Windows.EventTracing.Processing.All`,
+  `Microsoft.Windows.EventTracing.Processing`, `Microsoft.Windows.EventTracing.Cpu`).
+- **2.x (preview):** the newer `Microsoft.Windows.EventTracing` and
+  `Microsoft.Windows.EventTracing.Core` packages, currently published as prerelease only.
+- **MCP tool (preview):** the `Microsoft.Windows.EventTracing.MCP` packages (including the
+  `win-x64` and `win-arm64` runtime variants) — a .NET tool that provides a Model Context
+  Protocol (MCP) server for analyzing Windows Event Tracing (`.etl`) performance data.
+
+For more information on these packages, see the [trace processing documentation](https://aka.ms/traceprocessing).
 
 # Contributing
 
